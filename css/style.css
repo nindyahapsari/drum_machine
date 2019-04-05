@@ -1,0 +1,77 @@
+body {
+  background: #e2f1f8;
+}
+
+
+#drum-machine-container {
+  background: #e2f1f8;
+}
+
+#DM-header {
+  text-align: center;
+}
+
+#display-pads {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 7px solid black;
+  height: 70vh;
+  width: 50vw;
+  align-items: center;
+  background: #455a64;
+  margin: 10px;
+}
+
+.drum-pad {
+  height: 20vh;
+  width: 10vw;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  margin-top: 9px;
+  background: #8c8c8c;
+  
+}
+
+#display {
+  font-size: 30px;
+  text-align: center;
+}
+
+#surface-pad {
+  border: 5px solid black;
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+#screen {
+  display: inline-block;
+  border: 5px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+
+#soundBankButton {
+  display: inline-block;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
